@@ -1,6 +1,6 @@
 # Python image for xgboost
 # docker build --tag ml_xgboost:latest .
-# docker run -it -v `pwd`:/ml -p 8888:8888 ml_xgboost jupyter notebook --ip 0.0.0.0
+# docker run -it -v `pwd`:/ml -p 8888:8888 ml_xgboost sh -c 'jupyter notebook --ip 0.0.0.0'
 
 FROM python:2
 
